@@ -32,9 +32,15 @@
               }
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
-              "./node_modules/intl-tel-input/build/css/intlTelInput.css",
+              {
+                "input": "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css"
+              },
+              {
+                "input": "./node_modules/intl-tel-input/build/css/intlTelInput.css"
+              },
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              },
               {
                 "input": "src/theme/variables.scss"
               },
